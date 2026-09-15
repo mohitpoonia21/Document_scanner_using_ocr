@@ -1,6 +1,5 @@
 # `statement.md`
 
-```markdown
 # Project Statement
 
 ## Document Scanner Using OCR
