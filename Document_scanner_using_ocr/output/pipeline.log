@@ -1,0 +1,20 @@
+2026-09-15 13:57:40 | INFO    | src.ocr_engine | Extracted 1 line(s) of text, avg confidence 0.95
+2026-09-15 13:57:40 | WARNING | src.ocr_engine | OCR produced no text above confidence threshold 0.30
+2026-09-15 13:59:26 | INFO    | __main__ | Processing 'input/sample_document_test.png'...
+2026-09-15 13:59:26 | WARNING | src.preprocessing | No document contour detected in 'input/sample_document_test.png'
+2026-09-15 13:59:26 | ERROR   | __main__ | Failed to process 'input/sample_document_test.png': No document-like four-corner contour was detected. Try a clearer image with the full document visible.
+2026-09-15 14:00:23 | INFO    | __main__ | Processing 'input/sample_document_test.png'...
+2026-09-15 14:00:23 | WARNING | src.preprocessing | No document contour detected in 'input/sample_document_test.png'
+2026-09-15 14:00:23 | ERROR   | __main__ | Failed to process 'input/sample_document_test.png': No document-like four-corner contour was detected. Try a clearer image with the full document visible.
+2026-09-15 14:00:28 | INFO    | src.ocr_engine | Extracted 1 line(s) of text, avg confidence 0.95
+2026-09-15 14:00:28 | WARNING | src.ocr_engine | OCR produced no text above confidence threshold 0.30
+2026-09-15 14:01:02 | INFO    | __main__ | Processing 'input/sample_document_test.png'...
+2026-09-15 14:01:02 | INFO    | src.preprocessing | Document detected and perspective corrected for 'input/sample_document_test.png'
+2026-09-15 14:01:07 | INFO    | src.ocr_engine | Extracted 1 line(s) of text, avg confidence 0.95
+2026-09-15 14:01:07 | WARNING | src.ocr_engine | OCR produced no text above confidence threshold 0.30
+2026-09-15 14:02:55 | INFO    | src.ocr_engine | Extracted 1 line(s) of text, avg confidence 0.95
+2026-09-15 14:02:55 | WARNING | src.ocr_engine | OCR produced no text above confidence threshold 0.30
+2026-09-15 14:02:57 | INFO    | __main__ | Processing 'input/sample_document_test.png'...
+2026-09-15 14:02:57 | INFO    | src.preprocessing | Document detected and perspective corrected for 'input/sample_document_test.png'
+2026-09-15 14:02:57 | ERROR   | src.ocr_engine | EasyOCR is not installed; OCR cannot start
+2026-09-15 14:02:57 | ERROR   | __main__ | Failed to process 'input/sample_document_test.png': EasyOCR is not installed. Please install the project dependencies with: pip install -r requirements.txt
