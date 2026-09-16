@@ -21,6 +21,7 @@ Python, OpenCV, NumPy, EasyOCR, FPDF2, Pytest
 
 ## Project Structure
 
+```text
 Document_scanner_using_ocr/
 ├── diagrams/
 ├── input/
