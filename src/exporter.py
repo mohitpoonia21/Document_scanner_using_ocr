@@ -5,7 +5,7 @@ MODULE 3: Output & Export
 
 Takes the flattened document image plus its OCRResult and writes results
 to disk in the formats a user actually wants to keep: a plain-text file,
-a searchable-text PDF (image + selectable text layer), a JSON record
+a PDF report containing the scanned image and extracted text, a JSON record
 (useful for downstream processing / batch reporting), and the flattened
 scan image itself.
 """
@@ -58,8 +58,7 @@ def save_json(result: OCRResult, source_image: str, output_path: str) -> str:
 def save_pdf(result: OCRResult, scan_image_path: str, output_path: str) -> str:
     """
     Build a simple PDF containing the scanned image followed by the
-    extracted text -- a lightweight stand-in for a true text-under-image
-    "searchable PDF", produced without extra native dependencies.
+    extracted text, produced without extra native dependencies.
     """
     pdf = FPDF()
     pdf.add_page()
