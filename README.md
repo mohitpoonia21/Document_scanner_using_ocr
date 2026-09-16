@@ -3,14 +3,13 @@
 A Computer Vision project that converts document images into clean scanned documents and extracts text using OCR.
 
 **Author:** Mohit Poonia  
-**Reg. No.:** 24BAI10966  
+**Registration No.:** 24BAI10966  
 **Course:** Computer Vision
 
 ## Features
 
-- Detects the document from an image using OpenCV.
-- Corrects perspective to create a scanned view.
-- Enhances the document for better readability.
+- Detects documents from images using OpenCV.
+- Corrects perspective and enhances the scanned document.
 - Extracts text using EasyOCR.
 - Filters OCR results using confidence scores.
 - Exports results as PNG, TXT, JSON and PDF.
@@ -22,7 +21,6 @@ Python, OpenCV, NumPy, EasyOCR, FPDF2, Pytest
 
 ## Project Structure
 
-```text
 Document_scanner_using_ocr/
 ├── diagrams/
 ├── input/
@@ -38,7 +36,7 @@ cd Document_scanner_using_ocr
 pip install -r requirements.txt
 Run
 
-Put a document image inside the input folder:
+Place a document image inside the input folder and run:
 
 python -m src.cli --input input/your_document.jpg --output output
 
@@ -50,10 +48,14 @@ pytest -q
 
 Result: 13 tests passed
 
+Output
+
+The application can generate:
+
+document_scan.png
+document.txt
+document.json
+document.pdf
 Note
 
-The complete OCR stage requires EasyOCR and its model files. During development, OCR wrapper functionality was tested using mocks because the required model/package download was unavailable in the testing environment
-Author
-
-Mohit Poonia
-Registration No.: 24BAI10966
+The complete OCR stage requires EasyOCR and its model files. During development, the OCR wrapper was tested using mocks because the required package/model download was unavailable in the testing environment.
